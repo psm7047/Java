@@ -6,8 +6,8 @@ public class Exam01_1 {
 		
 		//정수 타입의 변수 선언과 값 저장
 		byte var1 = 100; //-127~128	
-		short var2 = 1000;
-		int var3 = 200000000;
+		short var2 = 1000;	
+		int var3 = 2000000;
 		long var4 = 20000000L;
 		
 		//문자 타입의 변수 선언과 값 저장
