@@ -2,7 +2,7 @@ package ch04homework;
 
 import java.util.Scanner;
 
-public class Example18 {
+public class DoWhileExample {
 
 	//DoWhileExample
 	//키보드 입력, 출력 q 종료 do- while문

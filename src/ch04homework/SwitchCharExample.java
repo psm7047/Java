@@ -1,7 +1,7 @@
 package ch04homework;
 
 //SwitchCharExample
-public class Example08 {
+public class SwitchCharExample {
 
 	public static void main(String[] args) {
 

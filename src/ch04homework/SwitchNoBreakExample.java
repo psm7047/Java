@@ -1,7 +1,7 @@
 package ch04homework;
 
 //SwitchNoBreakExample
-public class Example07 {
+public class SwitchNoBreakExample {
 
 	public static void main(String[] args) {
 

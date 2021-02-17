@@ -2,7 +2,7 @@ package ch04homework;
 
 import java.util.Scanner;
 
-public class Example19 {
+public class BreakExample {
 
 	//BreakExample
 	//break 6나오면 while문 종료

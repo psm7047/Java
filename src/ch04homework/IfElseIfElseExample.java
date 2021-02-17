@@ -1,7 +1,7 @@
 package ch04homework;
 
 //IfElseIfElseExample
-public class Example03 {
+public class IfElseIfElseExample {
 
 	public static void main(String[] args) {
 

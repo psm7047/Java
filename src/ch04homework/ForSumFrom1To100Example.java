@@ -1,7 +1,7 @@
 package ch04homework;
 
 //ForSumFrom1To100Example
-public class Example11 {
+public class ForSumFrom1To100Example {
 
 	public static void main(String[] args) {
 		

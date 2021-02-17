@@ -1,7 +1,7 @@
 package ch04homework;
 
 //ForPrintFrom1To10Example
-public class Example10 {
+public class ForPrintFrom1To10Example {
 
 	public static void main(String[] args) {
 		

@@ -1,6 +1,6 @@
 package ch04homework;
 
-public class Example15 {
+public class WhilePrintFrom1To10Example {
 
 	//WhilePrintFrom1To10Example
 	public static void main(String[] args) {

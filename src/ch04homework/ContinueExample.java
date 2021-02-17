@@ -3,7 +3,7 @@ package ch04homework;
 import java.util.Scanner;
 
 //ContinueExample
-public class Example21 {
+public class ContinueExample {
 
 	//continue 사용한 for문
 	public static void main(String[] args)  {

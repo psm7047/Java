@@ -1,7 +1,7 @@
 package ch04homework;
 
 //IfNestedExample
-public class Example05 {
+public class IfNestedExample {
 
 	public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 package ch04homework;
 
-public class Example16 {
+public class WhileSumFrom1To100Example {
 
 	//WhileSumFrom1To100Example
 	public static void main(String[] args) {

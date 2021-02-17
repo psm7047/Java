@@ -1,7 +1,7 @@
 package ch04homework;
 
 //ForFloatCounterExample
-public class Example13 {
+public class ForFloatCounterExample {
 
 	public static void main(String[] args) {
 		

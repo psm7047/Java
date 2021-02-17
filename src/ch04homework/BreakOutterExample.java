@@ -3,7 +3,7 @@ package ch04homework;
 import java.util.Scanner;
 
 //BreakOutterExample
-public class Example20 {
+public class BreakOutterExample {
 
 	//Outter 반복문 종료
 	public static void main(String[] args)  {

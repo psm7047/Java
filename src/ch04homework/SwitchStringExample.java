@@ -1,7 +1,7 @@
 package ch04homework;
 
 //SwitchStringExample
-public class Example09 {
+public class SwitchStringExample {
 
 	public static void main(String[] args) {
 

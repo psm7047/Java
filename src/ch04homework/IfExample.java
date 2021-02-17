@@ -2,7 +2,7 @@ package ch04homework;
 
 //IfExample
 
-public class Example01 {
+public class IfExample {
 
 	public static void main(String[] args) {
 		

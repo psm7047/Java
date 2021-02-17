@@ -1,6 +1,6 @@
 package ch04homework;
 
-public class Example17 {
+public class WhileKeyControlExample {
 
 	//WhileKeyControlExample
 	//System.in.read() 예외처리

@@ -1,6 +1,6 @@
 package ch04homework;
 
-public class Example14 {
+public class ForMultiplicationTableExample {
 
 	public static void main(String[] args) {
 		

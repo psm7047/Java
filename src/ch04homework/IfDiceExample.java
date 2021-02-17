@@ -1,7 +1,7 @@
 package ch04homework;
 
 //IfDiceExample
-public class Example04 {
+public class IfDiceExample {
 
 	public static void main(String[] args) {
 		
