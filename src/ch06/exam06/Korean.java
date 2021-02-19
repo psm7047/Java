@@ -1,4 +1,4 @@
-package ch06.exam05;
+package ch06.exam06;
 
 public class Korean {
 
@@ -10,27 +10,22 @@ public class Korean {
 
 	//Constructor Over loading
 	Korean() {
-		
+		this("아무개","00000-00000",1);	//'a' constructor로 이동
 	}
 
+	
 	Korean(String name) {
-		
-		this.name = name;
+		this(name,"00000-00000",1);		//'a' constructor로 이동
 	}
 	Korean(String name, String ssn) {
 		
-		this.name = name;
-		this.ssn = ssn;
+		this(name,ssn,1);				//'a' constructor로 이동
 	}
-	Korean(String name, int age, String ssn) {
-		this.name = name;
-		this.ssn = ssn;
-		this.age = age;
-	}
+	//a
 	Korean(String name, String ssn, int age) {
 		this.name = name;
 		this.ssn = ssn;
 		this.age = age;
-		
 	}
+	
 }

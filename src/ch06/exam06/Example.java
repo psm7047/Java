@@ -1,4 +1,4 @@
-package ch06.exam05;
+package ch06.exam06;
 
 public class Example {
 
@@ -7,8 +7,7 @@ public class Example {
 		Korean k1 = new Korean();
 		Korean k2 = new Korean("±è¼Ò¶ó");
 		Korean k3 = new Korean("±è¼Ò¶ó","123456-123456");
-		Korean k4 = new Korean("±è¼Ò¶ó",25,"123456-123456");
-		Korean k5 = new Korean("±è¼Ò¶ó","123456-123456",25);
+		Korean k4 = new Korean("±è¼Ò¶ó","123456-123456",25);
 		
 		
 		
