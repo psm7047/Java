@@ -332,8 +332,8 @@ public class team4Project01Test {
 				
 				
 			} else if(selectNo.equals("6")) {			//새로운 기능 : 인기글 TOP5
-				int topCount = 1; // 5개만 출력하기 위한 변수
-				int[] check = new int[100];		//출력한 게시물인지 CHECK할 배열
+				int topCount = 1; // 1위~5위
+				int[] check = new int[100];		//조회수 내립차순
 				
 				System.out.println("------------------------------------------------------------------------------------------------------");
 				System.out.print("순위" + "\t");
@@ -375,7 +375,7 @@ public class team4Project01Test {
 									System.out.print(boardArray[index][3] + "\t\t");
 									System.out.print(boardArray[index][4] + "\t\n");
 									check[index]=1; // 출력한 게시물 체크
-									topCount++; // 인기글 추가
+									topCount++; // 다음 순위 표시
 								}
 								
 							}
