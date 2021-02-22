@@ -3,7 +3,7 @@ package ch06.exam13;
 public class Singleton {
 	
 	//field
-	private static Singleton singleton = new Singleton();
+	private static Singleton singleton = new Singleton();	//외부에서 변경 불가능
 	//constructor
 	private Singleton() {		//private : 선언된 클래스 안에서만 사용 가능
 		
