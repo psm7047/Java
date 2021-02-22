@@ -1,4 +1,4 @@
-package ch06homework.exam01_package_compile;
+package ch06homework.exam21_package_compile;
 
 public class Application {
 
