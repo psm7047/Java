@@ -16,10 +16,10 @@ public class Example {
 				System.out.print("저장할 값 : ");
 				arr[index] = scanner.nextLine();
 				
-			}catch(ArrayIndexOutOfBoundsException e) {
+			} catch(NumberFormatException e) {
 				System.out.println("숫자만 가능합니다.");
 			
-			}catch(Exception e) {
+			}catch(ArrayIndexOutOfBoundsException e) {
 				System.out.println("0~" + (arr.length-1) + "까지 가능합니다");
 			}
 			finally {

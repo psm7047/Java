@@ -1,4 +1,4 @@
-package ch10.exam07;
+package ch10.exam07_1;
 
 public class Example {
 
@@ -13,7 +13,6 @@ public class Example {
 			System.out.println(e.toString());
 			e.printStackTrace();
 			
-			//예외 발생 코드에 따라 처리
 			if(message.contains("0001")) {
 				//....
 			}else {
@@ -23,9 +22,7 @@ public class Example {
 
 
 	}
-	//호출된 곳에서 예외처리
 	public static void method() throws NoAccountException{
-		//예외 발생 코드
 		throw new NoAccountException("0001 입금 계좌가 없음");
 
 	}
