@@ -16,7 +16,7 @@ public class Example {
 		}
 		
 		String regExp2 = ".*(?=^.{8,15}$)(?=.*\\d)(?=.*[a-zA-Z])(?=.*[!@#$%^&+=]).*";
-		String password = "a#12345";
+		String password = "a#123456";
 		boolean result2 = Pattern.matches(regExp2, password);
 		System.out.println(result2);
 
