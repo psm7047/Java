@@ -6,11 +6,11 @@ public class Example {
 		//멀티스레드
 		System.out.println("메인 스레드 시작");
 		
-		//네트워크 작업을 하는 스레드 생성과 실행
+		//네트워크 작업을 하는 스레드 생성과 실행	//매개변수 : runnable인터페이스를 사용하는 객체 
 		Thread thread1 = new Thread(new NetworkTest());
 		thread1.start();
 		
-		//뮤직 작업을 하는 스레드 생성과 실행
+		//뮤직 작업을 하는 스레드 생성과 실행		//매개변수 : runnable인터페이스를 사용하는 객체 
 		Thread thread2 = new Thread(new MusicTask());
 		thread2.start();
 		

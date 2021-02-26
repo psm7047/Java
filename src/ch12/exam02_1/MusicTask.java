@@ -1,6 +1,6 @@
-package ch12.exam01;
-//Runnable 인터페이스를 사용하는...
-public class MusicTask implements Runnable{
+package ch12.exam02_1;
+//Thread 객체를 상속
+public class MusicTask extends Thread{
 	@Override
 	public void run() {
 		while(true) {
