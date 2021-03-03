@@ -1,4 +1,4 @@
-package ch18.exam16;
+package ch18.exam16_1;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -21,7 +21,7 @@ public class Example {
 
 		//방법2	보조스트림 : 연결할 수 있는 스트림이 따로 있다. 
 		InputStream is = System.in;
-		InputStreamReader isr = new InputStreamReader(is);	//바이트 -> 문자
+		InputStreamReader isr = new InputStreamReader(is);
 		BufferedReader br = new BufferedReader(isr);
 
 		String str = br.readLine();

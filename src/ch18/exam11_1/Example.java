@@ -10,11 +10,11 @@ public class Example {
 		//System.in => InputStream타입 , read()
 		
 		try {
-			InputStream is = System.in;
+			InputStream is = System.in;	//System.in => InputStream 필드
 			while(true) {
 				//한글 입력 x : 자음 + 모음이기 때문에 한개의 문자로 읽지 못함
 				int keyCode = is.read();
-				System.out.println(keyCode);
+				System.out.println(keyCode);	//13,10 => 엔터
 			}
 		} catch (IOException e) {
 			
