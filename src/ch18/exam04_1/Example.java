@@ -15,7 +15,7 @@ public class Example {
 			os.write(65);
 			os.write(66);
 			os.write(67);
-			//os비우기, 종료
+			//버퍼에 잔류하는 모든 문자열 출력
 			os.flush();
 			os.close();
 		} catch (Exception e) {
